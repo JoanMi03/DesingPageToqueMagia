@@ -26,14 +26,14 @@
                     <div class="carousel-inner">
                       <div class="carousel-item img-1 min-vh-100 active">
                         <div class="carousel-caption d-none d-md-block">
-                          <h5 class="font-weight-bold">Catedral de la Purisima Concepción,Chignahuapan</h5>
-                          <a class="text-muted text-decoration-none">¡Conoce nuestra tienda!</a>
+                          <h5 class="font-weight-bold">Un pueblo de Encanto y Magia</h5>
+                          <a class="text-muted text-decoration-none">Visita nuestra tienda</a>
                         </div>
                       </div>
                       <div class="carousel-item img-2 min-vh-100">
                         <div class="carousel-caption d-none d-md-block">
                           <h5 class="font-weight-bold">Un pueblo de grandes aventuras</h5>
-                          <a class="text-muted text-decoration-none">¡Conoce nuestra tienda!</a>
+                          <a class="text-muted text-decoration-none">Visita nuestra tienda</a>
                         </div>
                       </div>
                     </div>
@@ -49,10 +49,11 @@
             </div>
             <div class="col-lg-5 ">
                 <div class="px-lg-5 pt-lg-5 p-4  w-100">
-                    <h3 class="nombre text-center"><img src="img/logo_3.png" height="100" width="450"/></h3>
+                    <h3 class="nombre text-center">Un Toque de Magia</h3>
                 </div>
                 <div class="align-self-center w-100 px-lg-5 py-lg-2 p-4">
-                
+                <h1 class="font-weight-bold mb-3 text-center">Bienvenido</h1>
+                <h3 class="text-center">¿Ya tienes una cuenta?</h3>
                 <p class="text-center mb-4">¡Inicia sesión para ver la gran variedad <br>
                   de productos que tenemos para ti!</p>
                 <form class="mb-5" action="sesion.php" method="POST" >

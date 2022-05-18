@@ -1,17 +1,18 @@
-<!doctype html>
+
 <html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&family=Lobster&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ffec4ec2ed.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="shortcut icon" href="./images/logos/logo.png" type="image/x-icon">
-
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
     <title>Un toque de magia | Login</title>
   </head>
   <body >
@@ -24,15 +25,15 @@
                       <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                     </ol>
                     <div class="carousel-inner">
-                      <div class="carousel-item img-1 min-vh-100 active">
+                      <div class="carousel-item img-3 min-vh-100 active">
                         <div class="carousel-caption d-none d-md-block">
-                          <h5 class="font-weight-bold">Catedral de la Purisima Concepción,Chignahuapan</h5>
-                          <a class="text-muted text-decoration-none">¡Conoce nuestra tienda!</a>
+                          <h5 class="font-weight-bold">Atlixco, Puebla</h5>
+                            <a class="text-muted text-decoration-none">¡Conoce nuestra tienda!</a>
                         </div>
                       </div>
-                      <div class="carousel-item img-2 min-vh-100">
+                      <div class="carousel-item img-4 min-vh-100">
                         <div class="carousel-caption d-none d-md-block">
-                          <h5 class="font-weight-bold">Un pueblo de grandes aventuras</h5>
+                          <h5 class="font-weight-bold">Xicotepec de Juárez, Puebla</h5>
                           <a class="text-muted text-decoration-none">¡Conoce nuestra tienda!</a>
                         </div>
                       </div>
@@ -49,13 +50,15 @@
             </div>
             <div class="col-lg-5 ">
                 <div class="px-lg-5 pt-lg-5 p-4  w-100">
-                    <h3 class="nombre text-center"><img src="img/logo_3.png" height="100" width="450"/></h3>
+                <p class="centrar"><img src="img/logo_3.png" height="150" width="450" /></p>
                 </div>
                 <div class="align-self-center w-100 px-lg-5 py-lg-2 p-4">
-                
-                <p class="text-center mb-4">¡Inicia sesión para ver la gran variedad <br>
-                  de productos que tenemos para ti!</p>
+                <p class="text-center mb-4">¡Registrate para poder comprar!</p>
                 <form class="mb-5" action="sesion.php" method="POST" >
+                <div class="mb-4">
+                      <label for="nombre" class="form-label font-weight-bold">Nombre</label>
+                      <input type="text" class="form-control  border-1" id="exampleInputNombre" placeholder="Ingresa tu nombre" name="nombre" autocomplete="on"  required>
+                    </div>
                     <div class="mb-4">
                       <label for="usuario" class="form-label font-weight-bold">Usuario</label>
                       <input type="email" class="form-control  border-1" id="exampleInputEmail1" placeholder="Ingresa tu email" name="usuario" autocomplete="on"  required>
@@ -65,8 +68,8 @@
                       <input type="password" class="form-control  border-1 mb-2" name="password" autocomplete="on" placeholder="Ingresa tu contraseña" required>
                     
                     </div>
-                    <button type="submit" class="btn btn-primary w-100">Iniciar sesión</button>
-                    <a href="registro.php" class="font-weight-bold text-decoration-none registro">¿Todavia no tienes una cuenta? Crea una ahora</a>
+                    <a href="login.php"><button type="submit" class="btn btn-primary w-100">Registrarse</button></a>
+                    <a href="login.php" class="font-weight-bold text-decoration-none registro">¿Ya tienes una cuenta? Inicia sesión</a>
                   </form>
                     
                 

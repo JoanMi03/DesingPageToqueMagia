@@ -34,71 +34,9 @@
     <![endif]-->
   </head>
   <body>
-    <div class="site-branding-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    
-                </div>
-                
-                
-            </div>
-        </div>
-    </div> <!-- End site branding area -->
-    
-    
    
 
-   
-    <div class="mainmenu-area">
-        <div class="container">
-            <div class="row">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                      
-                       
-                        
-                    </button>
-                </div> 
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li> <h1><a href="index.html"><a><img src="img/logo_3.png" height="100" width="300"/></a></h1></li>
-                        <li class="active"><a href="index.html"><br>Inicio</a></li>
-                        <li><a href="shop.html"><br>Tienda</a></li> 
-                        <li><a href="cart.html"><br>Carrito</a></li>                      
-                        <li><a href="login.php"><br>Iniciar sesión</a></li>
-                      
-                        
-                       
-                        
-                    </ul>
-                </div> 
-            </div>
-        </div>
-    </div> <!-- End mainmenu area -->
-    
-
-    
-    <div class="mainmenu-area">
-        <div class="container">
-            <div class="row">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div> 
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                       <!--single product/Checkout-->
-                    </ul>
-                </div>  
-            </div>
-        </div>
-    </div> <!-- End mainmenu area -->
+  <?php include_once "header.php"?>
     
     <div class="product-big-title-area">
         <div class="container">
@@ -334,67 +272,8 @@
         </div>
     </div>
 
-
-    <div class="footer-top-area">
-        <div class="zigzag-bottom"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <div class="footer-about-us">
-                        <h2><span>Redes Sociales</span></h2>
-                        <div class="footer-social">
-                            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-                            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-                            <a href="#" target="_blank"><i class="fa fa-youtube"></i></a>
-                            <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-3 col-sm-6">
-                    <div class="footer-menu">
-                        <h2 class="footer-wid-title">Contacto </h2>
-                        <ul>
-                            <li><a href="#"><span class="glyphicon glyphicon-earphone"></span>  (+52)248 115 27 76</a></li>
-                            <li><a href="mailto:info@site.com"><span class="glyphicon glyphicon-envelope"></span>    untoquedemagia3@gmail.com</a></li>
-                            <li><a href="#"><span class="glyphicon glyphicon-map-marker"></span>  A. Serdán 107, Col Alvaro Obregón, 74060 San Martín Texmelucan de Labastida, Pue.</a></li>
-                        </ul>                        
-                    </div>
-                </div>
-                
-                <div class="col-md-3 col-sm-6">
-                    <div class="footer-menu">
-                        <h2 class="footer-wid-title">Más información</h2>
-                        <ul>
-                            <li><a href="">Términos y condiciones</a></li>
-                            <li><a href="">Privacidad</a></li>
-                            <li><a href="">Mapa del sitio</a></li>
-                        </ul>                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer-bottom-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="copyright">
-                        <p>&copy; 2022- Un Toque de Magia.Todos los derechos reservados<a href="!#" target="_blank"></a></p>                        
-                    </div>
-                </div>
-                
-                <div class="col-md-4">
-                    <div class="footer-card-icon">
-                        <i class="fa fa-cc-discover"></i>
-                        <i class="fa fa-cc-mastercard"></i>
-                        <i class="fa fa-cc-paypal"></i>
-                        <i class="fa fa-cc-visa"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        <?php include_once "footer.php"?>
+   
    
     <!-- Latest jQuery form server -->
     <script src="https://code.jquery.com/jquery.min.js"></script>

@@ -79,13 +79,13 @@ div.cart-collaterals ul.products li.product {
 }    
     
 .navbar-toggle {
-    border-color: rgba(255, 255, 255, 0.264);
+    border-color: rgba(194, 18, 18, 0.264);
     float: none;
     margin: 10px auto;
 }
-.navbar-toggle .icon-bar { background: none repeat scroll 0 0 rgb(12, 16, 124) }  
+.navbar-toggle .icon-bar { background: none repeat scroll 0 0 rgb(255, 255, 255) }  
 .navbar-collapse.collapse.in {
-  background: none repeat scroll 0 0 #2a23b8;
+  background: none repeat scroll 0 0 #ffffff;
   position: relative;
   z-index: 99;
 } 
